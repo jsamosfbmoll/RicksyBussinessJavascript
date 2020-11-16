@@ -1,3 +1,9 @@
+function mostrarReserva(card, expender, ufos) {
+    console.log(card.toString());
+    console.log("Packs: " + expender.stock);
+    console.log("Ovni: " + ufos.getUfoOf(card.number()));
+}
+
 var abradolph = new CreditCard("Abradolph Lincler", "4916119711304546");
 console.log("\nTarjeta de Abradolph\n====================");
 console.log(abradolph.toString());
