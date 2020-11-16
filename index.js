@@ -1,3 +1,5 @@
+const { CreditCard, UfosPark, CrystalExpender, RickMenuDispatcher, Receptivo } = require("./smockClasses.js");
+
 function mostrarReserva(card, expender, ufos) {
     console.log(card.toString());
     console.log("Packs: " + expender.stock);
