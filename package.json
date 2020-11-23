@@ -1,0 +1,11 @@
+{
+  "name": "ricksybusiness",
+  "version": "1.0.0",
+  "description": "Examen de Ricksy Business en java a javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "jsamosfbmoll",
+  "license": "MIT"
+}
