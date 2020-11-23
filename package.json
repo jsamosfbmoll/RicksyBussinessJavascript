@@ -4,7 +4,8 @@
   "description": "Examen de Ricksy Business en java a javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node src"
   },
   "author": "jsamosfbmoll",
   "license": "MIT",
