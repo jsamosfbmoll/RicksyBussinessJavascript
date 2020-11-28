@@ -1,4 +1,8 @@
-const { CreditCard, UfosPark, CrystalExpender, RickMenuDispatcher, Receptivo } = require("./smockClasses.js");
+const { CreditCard } = require("./CreditCard/CreditCard.js");
+const { UfosPark } = require("./UfosPark/UfosPark.js");
+const { CrystalExpender } = require("./CrystalExpender/CrystalExpender.js");
+const { RickMenuDispatcher } = require("./RickMenuDispatcher/RickMenuDispatcher.js");
+const { Receptivo } = require("./Receptivo/Receptivo.js");
 
 function mostrarReserva(card, expender, ufos) {
     console.log(card.toString());
