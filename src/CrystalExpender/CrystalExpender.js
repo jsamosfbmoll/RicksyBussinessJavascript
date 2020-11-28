@@ -14,3 +14,7 @@ CrystalExpender.prototype.dispatch = function(card) {
     }
     return false;
 }
+
+module.exports = {
+    CrystalExpender: CrystalExpender
+}

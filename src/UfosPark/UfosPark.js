@@ -3,8 +3,8 @@ function UfosPark() {
     this.cards = new Map();
 }
 
-UfosPark.prototype.add = function(UfoId) {
-    this.ufos.push(ufoID);
+UfosPark.prototype.add = function(ufoId) {
+    this.ufos.push(ufoId);
 }
 
 UfosPark.prototype.dispatch = function(card) {
@@ -17,4 +17,8 @@ UfosPark.prototype.getUfoOf = function(card) {
 
 UfosPark.prototype.toString = function() {
     return this.ufos.toString();
+}
+
+module.exports = {
+    UfosPark: UfosPark
 }

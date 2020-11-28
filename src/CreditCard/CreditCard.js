@@ -24,3 +24,7 @@ CreditCard.prototype.pay = function(qty) {
     }
     return false;
 }
+
+module.exports = {
+    CreditCard: CreditCard
+}

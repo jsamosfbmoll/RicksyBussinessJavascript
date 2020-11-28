@@ -14,3 +14,7 @@ RickMenuDispatcher.prototype.dispatch = function(card) {
     }
     return false;
 }
+
+module.exports = {
+    RickMenuDispatcher: RickMenuDispatcher
+}

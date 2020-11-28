@@ -1,11 +1,5 @@
-function aaReceptivo() {
-    this.services = [];
-    this.registra = (service) => { this.services.push(service); }
-    this.dispatch = (card) => { for (let service of this.services) { service.dispatch(card); } }
-}
-
 function Receptivo() {
-    this.service = [];
+    this.services = [];
 }
 
 Receptivo.prototype.registra = function(servicio) {
@@ -16,4 +10,8 @@ Receptivo.prototype.dispatch = function(card) {
     for (let service of this.services) {
         service.dispatch(card);
     }
+}
+
+module.exports = {
+    Receptivo: Receptivo
 }
