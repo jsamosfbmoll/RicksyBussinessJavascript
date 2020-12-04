@@ -1,15 +1,28 @@
 {
-  "name": "ricksybusiness",
+  "name": "@jsamos/ricksybusiness",
   "version": "1.0.0",
-  "description": "Examen de Ricksy Business en java a javascript",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "start": "node src"
+  "description": "Examen sobre RicksyBusiness en javascript",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
   },
-  "author": "jsamosfbmoll",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsamosfbmoll/RicksyBussinessJavascript.git"
+  },
+  "keywords": [
+    "rick",
+    "morty",
+    "examen",
+    "javascript"
+  ],
+  "author": "Jose Maria Samos jsamos@cifpfbmoll.eu",
   "license": "MIT",
-  "devDependencies": {
-    "jest": "^26.6.3"
-  }
+  "bugs": {
+    "url": "https://github.com/jsamosfbmoll/RicksyBussinessJavascript/issues"
+  },
+  "homepage": "https://github.com/jsamosfbmoll/RicksyBussinessJavascript#readme"
 }
