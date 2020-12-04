@@ -1,0 +1,8 @@
+# Hidden files (.git, .gitignore, etc...)
+.*
+
+# Test folder
+test
+
+# Dependencies folder
+dependencies
