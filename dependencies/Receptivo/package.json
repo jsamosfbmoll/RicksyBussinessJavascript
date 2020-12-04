@@ -1,0 +1,8 @@
+{
+  "name": "@jsamos/Receptivo",
+  "version": "1.0.0",
+  "description": "Receptivo for RicksyBusiness project",
+  "main": "index.js",
+  "author": "Jose Maria Samos jsamos@cifpfbmoll.eu",
+  "license": "MIT"
+}
