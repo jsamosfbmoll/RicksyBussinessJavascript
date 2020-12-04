@@ -24,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/jsamosfbmoll/RicksyBussinessJavascript/issues"
   },
-  "homepage": "https://github.com/jsamosfbmoll/RicksyBussinessJavascript#readme"
+  "homepage": "https://github.com/jsamosfbmoll/RicksyBussinessJavascript#readme",
+  "dependencies": {
+    "@jsamos/creditcard": "^1.0.0",
+    "@jsamos/crystalexpender": "^1.0.0",
+    "@jsamos/receptivo": "^1.0.0",
+    "@jsamos/rickmenudispatcher": "^1.0.0",
+    "@jsamos/ufospark": "^1.0.0"
+  }
 }
