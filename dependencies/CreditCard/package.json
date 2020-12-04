@@ -1,5 +1,5 @@
 {
-  "name": "@jsamos/CreditCard",
+  "name": "@jsamos/creditcard",
   "version": "1.0.0",
   "description": "CreditCard for RicksyBusiness project",
   "main": "index.js",
