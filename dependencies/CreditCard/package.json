@@ -1,0 +1,8 @@
+{
+  "name": "@jsamos/creditcard",
+  "version": "1.0.0",
+  "description": "CreditCard for RicksyBusiness project",
+  "main": "index.js",
+  "author": "Jose Maria Samos jsamos@cifpfbmoll.eu",
+  "license": "MIT"
+}

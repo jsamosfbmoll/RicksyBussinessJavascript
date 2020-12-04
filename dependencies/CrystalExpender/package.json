@@ -1,0 +1,8 @@
+{
+  "name": "@jsamos/crystalexpender",
+  "version": "1.0.0",
+  "description": "CrystalExpender for RicksyBusiness project",
+  "main": "index.js",
+  "author": "Jose Maria Samos jsamos@cifpfbmoll.eu",
+  "license": "MIT"
+}

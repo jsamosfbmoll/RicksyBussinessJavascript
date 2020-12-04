@@ -1,8 +1,8 @@
-const { CreditCard } = require("./CreditCard/CreditCard.js");
-const { UfosPark } = require("./UfosPark/UfosPark.js");
-const { CrystalExpender } = require("./CrystalExpender/CrystalExpender.js");
-const { RickMenuDispatcher } = require("./RickMenuDispatcher/RickMenuDispatcher.js");
-const { Receptivo } = require("./Receptivo/Receptivo.js");
+const { CreditCard } = require("@jsamos/creditcard");
+const { UfosPark } = require("@jsamos/ufospark");
+const { CrystalExpender } = require("@jsamos/crystalexpender");
+const { RickMenuDispatcher } = require("@jsamos/rickmenudispatcher");
+const { Receptivo } = require("@jsamos/receptivo");
 
 function mostrarReserva(card, expender, ufos) {
     console.log(card.toString());
