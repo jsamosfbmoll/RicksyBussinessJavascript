@@ -22,3 +22,34 @@ test("Remove ufo", () => {
     ufosPark.remove(ufo);
     expect(ufosPark.getUfos()).not.toContain(ufo);
 });
+
+test("Check if ufo has elements", () => {
+    let ufo = new Ufo("marca", "modelo", 300, "azul", "gama", 12, ["laser"]);
+    expect(ufo.getMarca()).toBe("marca");
+    expect(ufo.getModelo()).toBe("modelo");
+    expect(ufo.getPrecio()).toBe(300);
+    expect(ufo.getColor()).toBe("azul");
+    expect(ufo.getGama()).toBe("gama");
+    expect(ufo.getPlazas()).toBe(12);
+    expect(ufo.getCaracteristicas()).toBe(["laser"]);
+});
+
+test("Set values to ufo", () => {
+    let ufo = new Ufo();
+
+    ufo.setMarca("citroen");
+    ufo.setModelo("modelito");
+    ufo.setPrecio(200);
+    ufo.setColor("rojo");
+    ufo.setGama("gamba");
+    ufo.setPlazas(2);
+    ufo.setCaracteristicas(["radio", "lavabo"]);
+
+    expect(ufo.getMarca()).toBe("citroen");
+    expect(ufo.getModelo()).toBe("modelito");
+    expect(ufo.getPrecio()).toBe(200);
+    expect(ufo.getColor()).toBe("rojo");
+    expect(ufo.getGama()).toBe("gamba");
+    expect(ufo.getPlazas()).toBe(2);
+    expect(ufo.getCaracteristicas()).toBe(["radio", "lavabo"]);
+});
