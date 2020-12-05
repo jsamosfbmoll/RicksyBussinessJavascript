@@ -11,14 +11,14 @@ test("Check getUfosPark is singleton", () => {
 test("Add ufo", () => {
     let ufo = new Ufo("Marca", "Modelo", 100, "Color", "Gama", 6, ["Caracteristicas"]);
     let ufosPark = getUfosPark();
-    ufosPark.addUfo(ufo);
+    ufosPark.add(ufo);
     expect(ufosPark.getUfos()).toContain(ufo);
 });
 
 test("Remove ufo", () => {
     let ufo = new Ufo("Marca", "Modelo", 100, "Color", "Gama", 6, ["Caracteristicas"]);
     let ufosPark = getUfosPark();
-    ufosPark.addUfo(ufo);
+    ufosPark.add(ufo);
     expect(ufosPark.getUfos()).toContain(ufo);
     ufosPark.remove(ufo);
     expect(ufosPark.getUfos()).not.toContain(ufo);
@@ -32,7 +32,7 @@ test("Check if ufo has elements", () => {
     expect(ufo.getColor()).toBe("azul");
     expect(ufo.getGama()).toBe("gama");
     expect(ufo.getPlazas()).toBe(12);
-    expect(ufo.getCaracteristicas()).toBe(["laser"]);
+    expect(ufo.getCaracteristicas()).toStrictEqual(["laser"]);
 });
 
 test("Set values to ufo", () => {
@@ -52,5 +52,5 @@ test("Set values to ufo", () => {
     expect(ufo.getColor()).toBe("rojo");
     expect(ufo.getGama()).toBe("gamba");
     expect(ufo.getPlazas()).toBe(2);
-    expect(ufo.getCaracteristicas()).toBe(["radio", "lavabo"]);
+    expect(ufo.getCaracteristicas()).toStrictEqual(["radio", "lavabo"]);
 });

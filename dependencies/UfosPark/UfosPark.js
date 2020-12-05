@@ -15,6 +15,10 @@ UfosPark.prototype.getUfoOf = function(card) {
     return this.cards.get(card);
 }
 
+UfosPark.prototype.getUfos = function() {
+    return this.ufos;
+}
+
 UfosPark.prototype.toString = function() {
     return this.ufos.toString();
 }
