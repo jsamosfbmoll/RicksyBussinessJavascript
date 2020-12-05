@@ -1,4 +1,5 @@
-const { getUfosPark, UfosPark, Ufo } = require("../dependencies/UfosPark");
+const { UfosPark } = require("../dependencies/UfosPark/UfosPark");
+const { getUfosPark, Ufo } = require("@jsamos/ufospark");
 
 test("Check getUfosPark is singleton", () => {
     let ufosPark = getUfosPark();
