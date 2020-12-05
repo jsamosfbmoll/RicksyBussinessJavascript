@@ -32,5 +32,8 @@
     "@jsamos/receptivo": "^1.0.0",
     "@jsamos/rickmenudispatcher": "^1.0.0",
     "@jsamos/ufospark": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
