@@ -19,6 +19,11 @@ UfosPark.prototype.getUfos = function() {
     return this.ufos;
 }
 
+UfosPark.prototype.remove = function(ufo) {
+    let index = this.ufos.indexOf(ufo);
+    if (index != -1) this.ufos.splice(index, 1);
+}
+
 UfosPark.prototype.toString = function() {
     return this.ufos.toString();
 }
