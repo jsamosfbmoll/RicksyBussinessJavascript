@@ -486,10 +486,10 @@
   resolved "https://registry.yarnpkg.com/@jsamos/rickmenudispatcher/-/rickmenudispatcher-1.0.0.tgz#3abcde630cae25e93cce12fbeda2b40a1d8cf048"
   integrity sha512-Hckk+ypPpi3OTqjj9bCLGoaOH7zobAZi4ioYybpU4mySFnwTP/dYlNcOUWIgU/q4tFlVaQzfzFVW5zcWrORAug==
 
-"@jsamos/ufospark@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@jsamos/ufospark/-/ufospark-1.0.0.tgz#8f70e5f2e29f951a86f61f0b5c65d1bc747d4c11"
-  integrity sha512-E2giWQniJB5Oe9TfGKFMORJe3/oySIxMwRhTcVMBXLP5+cZiWbM1NwFe88h4VX1QL3V/jQp8xC+9iWGzn9BtIg==
+"@jsamos/ufospark@^2.0.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@jsamos/ufospark/-/ufospark-2.2.0.tgz#129da8f0bde6edefc3a8190f774a077b687f4813"
+  integrity sha512-EIFQyJqVYkiAplsXU6/MqKl/XiHYXfNqBlB3ww6/Mef43OvsDVUA6LB+6OnNMak3HqKRVMzs3IbNz1Tju+oY7A==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"

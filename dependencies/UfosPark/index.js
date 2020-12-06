@@ -1,24 +1,18 @@
-function UfosPark() {
-    this.ufos = [];
-    this.cards = new Map();
-}
+const { UfosPark } = require("./UfosPark");
+const { Ufo } = require("./Ufo");
 
-UfosPark.prototype.add = function(ufoId) {
-    this.ufos.push(ufoId);
-}
+function getUfosPark() {
+    let instace = null;
 
-UfosPark.prototype.dispatch = function(card) {
-    this.cards.set(card, "ufo")
-}
-
-UfosPark.prototype.getUfoOf = function(card) {
-    return this.cards.get(card);
-}
-
-UfosPark.prototype.toString = function() {
-    return this.ufos.toString();
+    return function() {
+        if (instace == null) {
+            instace = new UfosPark();
+        }
+        return instace;
+    }
 }
 
 module.exports = {
-    UfosPark: UfosPark
+    getUfosPark: getUfosPark(),
+    Ufo: Ufo
 }
