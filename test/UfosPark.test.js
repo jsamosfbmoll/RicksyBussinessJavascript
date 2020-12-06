@@ -1,11 +1,9 @@
-const { UfosPark } = require("../dependencies/UfosPark/UfosPark");
 const { getUfosPark, Ufo } = require("@jsamos/ufospark");
 
 test("Check getUfosPark is singleton", () => {
     let ufosPark = getUfosPark();
     let ufosParkDos = getUfosPark();
-    expect(ufosPark).toBeInstanceOf(UfosPark);
-    expect(ufosPark).toMatchObject(ufosParkDos);
+    expect(Object.is(ufosPark, ufosParkDos)).toBeTruthy();
 });
 
 test("Add ufo", () => {
