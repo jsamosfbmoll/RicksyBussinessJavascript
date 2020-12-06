@@ -487,9 +487,9 @@
   integrity sha512-Hckk+ypPpi3OTqjj9bCLGoaOH7zobAZi4ioYybpU4mySFnwTP/dYlNcOUWIgU/q4tFlVaQzfzFVW5zcWrORAug==
 
 "@jsamos/ufospark@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@jsamos/ufospark/-/ufospark-2.1.0.tgz#7d1775014ffa17bb9afdb3569f1be8d3bc47734e"
-  integrity sha512-jed/d2fG7kjFUpbYNiGSGzjphhpqqFAdSn2y+eRU+alzj7D0VTbKa9mXECqnQCzwkB9urTHCiMjSVH2EZ+JQ3Q==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@jsamos/ufospark/-/ufospark-2.2.0.tgz#129da8f0bde6edefc3a8190f774a077b687f4813"
+  integrity sha512-EIFQyJqVYkiAplsXU6/MqKl/XiHYXfNqBlB3ww6/Mef43OvsDVUA6LB+6OnNMak3HqKRVMzs3IbNz1Tju+oY7A==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
