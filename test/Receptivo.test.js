@@ -1,4 +1,4 @@
-const { Receptivo } = require("../dependencies/Receptivo");
+const { Receptivo } = require("@jsamos/receptivo");
 const { RickMenuDispatcher } = require("@jsamos/rickmenudispatcher");
 const { CrystalExpender } = require("@jsamos/crystalexpender");
 const { CreditCard } = require("@jsamos/creditcard");
