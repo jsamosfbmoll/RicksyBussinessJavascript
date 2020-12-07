@@ -28,7 +28,7 @@
   "homepage": "https://github.com/jsamosfbmoll/RicksyBussinessJavascript#readme",
   "dependencies": {
     "@jsamos/creditcard": "^2.0.0",
-    "@jsamos/crystalexpender": "^1.0.0",
+    "@jsamos/crystalexpender": "^2.0.0",
     "@jsamos/receptivo": "^1.0.0",
     "@jsamos/rickmenudispatcher": "^1.0.0",
     "@jsamos/ufospark": "^2.0.0"

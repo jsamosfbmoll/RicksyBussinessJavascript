@@ -471,10 +471,10 @@
   resolved "https://registry.yarnpkg.com/@jsamos/creditcard/-/creditcard-2.0.0.tgz#38875831c69aadcfeb83237b7e285f781f92984d"
   integrity sha512-nJC3uYu+AQ3XjlJfevYlWafiaovi66ZK9RjOa+fsuPIhaSJS4TWLGRHFzanrtVH7OGxKR+KmwXPP/9WQgZ3anA==
 
-"@jsamos/crystalexpender@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@jsamos/crystalexpender/-/crystalexpender-1.0.0.tgz#ab4acb90fc5df833abfdafc8a02f1ed4d54ac438"
-  integrity sha512-eM49tvpDT7qgcrbqtR+JSTdjEcL1AB1iwhNL9riqgnLmHo/MExqw//0XTBsuUXy4SA+sNeOc/QXUPderMaUPZA==
+"@jsamos/crystalexpender@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@jsamos/crystalexpender/-/crystalexpender-2.0.0.tgz#9279b2bfdf3e2af1ffc46fd20944bb1f6e2817a1"
+  integrity sha512-xz5nGo3IJ/MtYOSno/mSqxN8dNcy1MsXMMZwkgnfGkrAJTPbb220QLYxhKwswIUJdYTZSijrSZN7PZwSCLR6Tw==
 
 "@jsamos/receptivo@^1.0.0":
   version "1.0.0"
