@@ -29,7 +29,7 @@
   "dependencies": {
     "@jsamos/creditcard": "^2.0.0",
     "@jsamos/crystalexpender": "^2.0.0",
-    "@jsamos/receptivo": "^1.0.0",
+    "@jsamos/receptivo": "^2.0.0",
     "@jsamos/rickmenudispatcher": "^2.0.0",
     "@jsamos/ufospark": "^2.0.0"
   },

@@ -476,10 +476,10 @@
   resolved "https://registry.yarnpkg.com/@jsamos/crystalexpender/-/crystalexpender-2.0.0.tgz#9279b2bfdf3e2af1ffc46fd20944bb1f6e2817a1"
   integrity sha512-xz5nGo3IJ/MtYOSno/mSqxN8dNcy1MsXMMZwkgnfGkrAJTPbb220QLYxhKwswIUJdYTZSijrSZN7PZwSCLR6Tw==
 
-"@jsamos/receptivo@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@jsamos/receptivo/-/receptivo-1.0.0.tgz#d1210774e21d5a38a3183317981ae165b347da56"
-  integrity sha512-TGZISSlDbl/t1qDiS2iWwMcTo2zQC350Gz7G8rhDf0XIeOciDPWKwFLGLzf8P9DGoUoFW96NQ5hpOZSyMTSNFA==
+"@jsamos/receptivo@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@jsamos/receptivo/-/receptivo-2.0.0.tgz#a25cdc2bbb4e6bf329739d0ece3d3928b49ed8f5"
+  integrity sha512-s2FhSB4Oh4VcXCQCr9EIVI7JHfTC1tFS/yYXT/JOWF1VHDsWJt67x4QVy5njgFIGhLJu4UoZrpskQJoyGEtfNw==
 
 "@jsamos/rickmenudispatcher@^2.0.0":
   version "2.0.0"
