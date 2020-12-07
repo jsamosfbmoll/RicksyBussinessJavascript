@@ -1,4 +1,4 @@
-const { RickMenuDispatcher } = require("../dependencies/RickMenuDispatcher");
+const { RickMenuDispatcher } = require("@jsamos/rickmenudispatcher");
 const { CreditCard } = require("@jsamos/creditcard");
 
 test("Get Cost", () => {

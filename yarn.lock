@@ -481,10 +481,10 @@
   resolved "https://registry.yarnpkg.com/@jsamos/receptivo/-/receptivo-1.0.0.tgz#d1210774e21d5a38a3183317981ae165b347da56"
   integrity sha512-TGZISSlDbl/t1qDiS2iWwMcTo2zQC350Gz7G8rhDf0XIeOciDPWKwFLGLzf8P9DGoUoFW96NQ5hpOZSyMTSNFA==
 
-"@jsamos/rickmenudispatcher@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@jsamos/rickmenudispatcher/-/rickmenudispatcher-1.0.0.tgz#3abcde630cae25e93cce12fbeda2b40a1d8cf048"
-  integrity sha512-Hckk+ypPpi3OTqjj9bCLGoaOH7zobAZi4ioYybpU4mySFnwTP/dYlNcOUWIgU/q4tFlVaQzfzFVW5zcWrORAug==
+"@jsamos/rickmenudispatcher@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@jsamos/rickmenudispatcher/-/rickmenudispatcher-2.0.0.tgz#8657df9dcaa0ce4f0da0aa9d7252a46c5e092c7e"
+  integrity sha512-1hmG6fe8Rq7o1pCPt3uPwYTFL/F2SA2IitGsSJSjUdEukHq4UmZPwUOBY+q0FFf/QQ+6c6POXglb7q06PrBKSQ==
 
 "@jsamos/ufospark@^2.0.0":
   version "2.2.0"
