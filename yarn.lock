@@ -466,10 +466,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@jsamos/creditcard@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@jsamos/creditcard/-/creditcard-1.0.0.tgz#d12909d21c341a14032a06cd5743eb71c496271e"
-  integrity sha512-9CNOsd2nYjhcD9h0xZRn55rL3HktbANonejTZDTe5rmCWJW3TtvON3EGJ469POWXTzHKXC6c+AzO8XQy5yoAPA==
+"@jsamos/creditcard@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@jsamos/creditcard/-/creditcard-2.0.0.tgz#38875831c69aadcfeb83237b7e285f781f92984d"
+  integrity sha512-nJC3uYu+AQ3XjlJfevYlWafiaovi66ZK9RjOa+fsuPIhaSJS4TWLGRHFzanrtVH7OGxKR+KmwXPP/9WQgZ3anA==
 
 "@jsamos/crystalexpender@^1.0.0":
   version "1.0.0"
