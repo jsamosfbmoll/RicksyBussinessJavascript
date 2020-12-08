@@ -27,4 +27,10 @@ The project has been developed in yarn, for installing the dependencies:
 ```bash
 # In project root
 yarn install
+
+# And execute
+yarn start
+
+# Testing
+yarn test
 ```
