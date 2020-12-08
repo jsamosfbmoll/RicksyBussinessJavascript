@@ -89,7 +89,7 @@ async function main() {
     console.log("\nFlota de ovnis\n==============");
     console.log(ufosPark.toString());
 
-    var packExpender = new CrystalExpender(3, 50);
+    var packExpender = crystalExpender;
     console.log("\nPacks\n=====");
     console.log(packExpender.toString());
 
@@ -126,7 +126,7 @@ async function main() {
     receptivo.dispatch(morty);
     mostrarReserva(morty, packExpender, ufosPark);
 
-    var MenuDispatcher = new RickMenuDispatcher();
+    var MenuDispatcher = rickMenu;
     receptivo.registra(MenuDispatcher);
 
     var cards = [abradolph, squanchy, morty, gearHead, birdpearson];
