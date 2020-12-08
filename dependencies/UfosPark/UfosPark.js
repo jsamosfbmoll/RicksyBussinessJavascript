@@ -3,16 +3,23 @@ function UfosPark() {
     this.cards = new Map();
 }
 
-UfosPark.prototype.add = function(ufoId) {
-    this.ufos.push(ufoId);
+UfosPark.prototype.add = function(ufo) {
+    this.ufos.push(ufo);
 }
 
 UfosPark.prototype.dispatch = function(card) {
-    this.cards.set(card, "ufo")
+    if (this.cards.has(card) || this.ufos.length == 0) return;
+
+    this.cards.set(card.getCode(), this.ufos[0]);
+
+    if (card.pay(this.ufos[0].getPrecio())) {
+        this.cards.set(card.getCode(), this.ufos[0]);
+        this.ufos.shift();
+    }
 }
 
 UfosPark.prototype.getUfoOf = function(card) {
-    return this.cards.get(card);
+    if (this.cards.has(card.getCode())) return this.cards.get(card.getCode());
 }
 
 UfosPark.prototype.getUfos = function() {
