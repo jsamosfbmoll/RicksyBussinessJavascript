@@ -1,0 +1,8 @@
+{
+  "name": "@jsamos/rickmenudispatcher",
+  "version": "2.0.0",
+  "description": "RickMenuDispatcher for RicksyBusiness project",
+  "main": "index.js",
+  "author": "Jose Maria Samos jsamos@cifpfbmoll.eu",
+  "license": "MIT"
+}
