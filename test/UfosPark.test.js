@@ -1,5 +1,4 @@
-//const { getUfosPark, Ufo } = require("@jsamos/ufospark");
-const { getUfosPark, Ufo } = require("../dependencies/UfosPark");
+const { getUfosPark, Ufo } = require("@jsamos/ufospark");
 const { CreditCard } = require("@jsamos/creditcard");
 
 test("Check getUfosPark is singleton", () => {

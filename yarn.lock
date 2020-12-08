@@ -487,9 +487,9 @@
   integrity sha512-1hmG6fe8Rq7o1pCPt3uPwYTFL/F2SA2IitGsSJSjUdEukHq4UmZPwUOBY+q0FFf/QQ+6c6POXglb7q06PrBKSQ==
 
 "@jsamos/ufospark@^2.0.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@jsamos/ufospark/-/ufospark-2.2.0.tgz#129da8f0bde6edefc3a8190f774a077b687f4813"
-  integrity sha512-EIFQyJqVYkiAplsXU6/MqKl/XiHYXfNqBlB3ww6/Mef43OvsDVUA6LB+6OnNMak3HqKRVMzs3IbNz1Tju+oY7A==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@jsamos/ufospark/-/ufospark-2.3.0.tgz#27590adfee78e7cd027d5a372019661a32fe118f"
+  integrity sha512-SbyavZXectxQoMMf4R0DsxCeFP5XiA2Wbx4BV3jZahmpEQXX/SBmzZTeLL4kpgqTItFij2vMxlr2D6IU4ANETw==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
@@ -2231,9 +2231,9 @@ js-tokens@^4.0.0:
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@^3.13.1:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.0.tgz#a7a34170f26a21bb162424d8adacb4113a69e482"
-  integrity sha512-/4IbIeHcD9VMHFqDR/gQ7EdZdLimOvW2DdcxFjdyyZ9NsbS+ccrXqVWDtab/lRl5AlUqmpBx8EhPaWR+OtY17A==
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
+  integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
