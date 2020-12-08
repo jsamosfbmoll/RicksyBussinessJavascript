@@ -1,9 +1,25 @@
-const { getUfosPark, Ufo } = require("@jsamos/ufospark");
+//const { getUfosPark, Ufo } = require("@jsamos/ufospark");
+const { getUfosPark, Ufo } = require("../dependencies/UfosPark");
+const { CreditCard } = require("@jsamos/creditcard");
 
 test("Check getUfosPark is singleton", () => {
     let ufosPark = getUfosPark();
     let ufosParkDos = getUfosPark();
     expect(Object.is(ufosPark, ufosParkDos)).toBeTruthy();
+});
+
+test("Asign ufo", () => {
+    let ufosPark = getUfosPark();
+    let creditcard = new CreditCard("Rick", "1234567890123456");
+
+    let ufo = new Ufo("marca");
+    ufo.setPrecio(200);
+
+    ufosPark.add(ufo);
+
+    ufosPark.dispatch(creditcard);
+
+    expect(ufosPark.getUfoOf(creditcard).getMarca()).toBe("marca");
 });
 
 test("Add ufo", () => {
