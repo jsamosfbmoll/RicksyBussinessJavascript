@@ -20,6 +20,8 @@ RickMenuDispatcher: expender that dispatchs menus.
 
 Receptivo: it dispatchs all the services for every customer automatically.
 
+The data from for the classes are in the data folder and [this fake api](https://my-json-server.typicode.com/AntoniPizarro/bd_proyecto/db).
+
 ## Install instructions
 
 The project has been developed in yarn, for installing the dependencies:
