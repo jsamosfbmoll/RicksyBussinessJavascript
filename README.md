@@ -36,3 +36,5 @@ yarn start
 # Testing
 yarn test
 ```
+
+This project is also upload in the rpm repository with the name of `@jsamos/ricksybusiness`
