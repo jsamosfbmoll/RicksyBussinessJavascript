@@ -31,7 +31,7 @@
     "@jsamos/crystalexpender": "^2.0.0",
     "@jsamos/receptivo": "^2.0.0",
     "@jsamos/rickmenudispatcher": "^2.0.0",
-    "@jsamos/ufospark": "^2.0.0",
+    "@jsamos/ufospark": "^3.0.0",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
