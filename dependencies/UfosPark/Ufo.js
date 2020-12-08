@@ -68,6 +68,10 @@ Ufo.prototype.getCaracteristicas = function() {
     return this.caracteristicas;
 }
 
+Ufo.prototype.toString = function() {
+    return "Marca: " + this.marca + " Modelo: " + this.modelo;
+}
+
 module.exports = {
     Ufo: Ufo
 }
