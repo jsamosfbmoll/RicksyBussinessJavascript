@@ -2,13 +2,13 @@ const { UfosPark } = require("./UfosPark");
 const { Ufo } = require("./Ufo");
 
 function getUfosPark() {
-    let instace = null;
+    let instance = null;
 
     return function() {
-        if (instace == null) {
-            instace = new UfosPark();
+        if (instance == null) {
+            instance = new UfosPark();
         }
-        return instace;
+        return instance;
     }
 }
 
